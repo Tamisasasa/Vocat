@@ -6,7 +6,7 @@ import WriteMeow from './pages/writeMeow'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Vocat">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/vocabPage/:id" element={<VocabPage />} />
